@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite'
 
-// Minimal Vite config — no plugin import to avoid CI/module resolution errors.
+// Minimal Vite config — no plugin import (avoids @vitejs/plugin-react resolution errors on CI)
 export default defineConfig({
-  // If you need any Vite options, add them here.
+  build: {
+    // keep default build behavior for Vite
+  }
 })
