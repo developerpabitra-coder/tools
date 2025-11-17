@@ -1,4 +1,3 @@
-// Force Vite to use an empty config so Cloudflare does not load plugin-react
+// Minimal ESM Vite config — forces Vite to use this instead of any CJS file.
 import { defineConfig } from 'vite';
-
 export default defineConfig({});
