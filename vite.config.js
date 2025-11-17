@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
 
+// Minimal Vite config — no plugin import to avoid CI/module resolution errors.
 export default defineConfig({
-  plugins: [react()],
+  // If you need any Vite options, add them here.
 })
